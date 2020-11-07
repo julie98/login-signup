@@ -26,11 +26,11 @@ export default class Login extends Component {
                 <button type='submit' className='btn btn-primary btn-block'>Log in</button>
 
                 <p className='forgot-password text-right'>
-                    Forgot password? <a href='#'>Click here</a>
+                    Forgot password? <a href='retrieve-password'>Click here</a>
                 </p>
 
                 <p className='authorized-registrar text-right'>
-                    Authorized Registrar? <a href='#'>Click here</a>
+                    Authorized Registrar? <a href='login-registrar'>Click here</a>
                 </p>
             </form>
         );
